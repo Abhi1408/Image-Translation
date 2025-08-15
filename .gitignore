@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project-specific ignores
+# Ignore dataset files, model checkpoints, and generated images
+maps_256.npz
+checkpoints/
+images/
